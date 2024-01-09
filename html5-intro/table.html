@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 2px solid blue;
+            padding: 5px 10px;
+        }
+    </style>
+
+<link rel="stylesheet" href="assets/media/styles2/nav.css">
+
+<link rel="stylesheet" href="assets/media/styles2/blog.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">video</a></li>
+                <li><a href="form.html">form</a></li>           
+                <li>
+                    <a href="table.html">table</a>
+                 <ul class="dropdown">
+                        <li><a href="video.html">video</a></li>
+                        <li><a href="form.html">form</a></li>       
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="table.html">table</a></li>
+                    </ul>
+                </li>
+                    <li><a href="blog.html">blog</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>HTML TABLE</h1>
+        <table>
+            <caption>employee salary sheet</caption>
+            <thead>
+                <tr>
+                    <th>no.</th>
+                    <th>full name</th>
+                    <th>company</th>
+                    <th>salary</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>bill gates</td>
+                    <td>microsoft</td>
+                    <td>1000$</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>steve jobs</td>
+                    <td>apple</td>
+                    <td>1200$</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>larry page</td>
+                    <td>google</td>
+                    <td>1100$</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>burg</td>
+                    <td>facebook</td>
+                    <td>1300$</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4">total employee: 4</td>
+                </tr>
+            </tfoot>
+        </table>
+        <ul>
+            <li>table: TABLE</li>
+            <li>table head: THEAD</li>
+            <li>table body: TBODY</li>
+            <li>table footer: TFOOT</li>
+            <li>table row: TR</li>
+            <li>table data or table cell: TD</li>
+            <li>table head: THEAD</li>
+
+        </ul>
+    </main>
+</body>
+
+</html>

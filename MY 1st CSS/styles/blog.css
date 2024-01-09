@@ -1,0 +1,29 @@
+h2{
+    font-size: xx-large;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+height: 300px;
+/* background-image: url(islam\ makhachev.jpg); */
+/* background-repeat: no-repeat; */
+background-image: url('../makhachev.jpg');
+background-size: 50px;
+background-image: url('../fighter/khabib.jpeg');
+
+}
+.dolor{
+    border: 5px purple;
+}
+.third{
+ 
+       display: inline;
+}
+.blog{
+    margin-top: 20px;
+    border: 5px;
+    box-shadow: 10px 10px 10px red
+}
+.hasan{
+    border: 5px solid rgb(10, 228, 3);
+}
